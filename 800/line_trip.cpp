@@ -1,6 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
-int main(){
+int main(){                         /*TC->O(n+n)==O(n) */         /* SC->O(n)   */
     int t;
     cin>>t;
     while(t--){
