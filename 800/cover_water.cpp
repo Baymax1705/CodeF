@@ -18,7 +18,10 @@ int main(){           //TC->O(N)            SC->O(1)
             {
                 count_dots++;
                 if(s[i-1]=='.' && s[i+1]=='.')
+                {
                     flag_continous=true;
+                    break;
+                }
             }
         }
         if(s[0]=='.')
